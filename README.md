@@ -23,7 +23,7 @@ https://karrisubbu2452-prog.github.io/FUTURE_FS_01/
 
 ## 📬 Contact
 - Email: karrisubbu2452@gmail.com
-- LinkedIn:[ ](https://www.linkedin.com/in/subbalakshmi-satti-82876435b)
+- LinkedIn:https://www.linkedin.com/in/subbalakshmi-satti-82876435b
 - GitHub: https://github.com/karrisubbu2452-prog
 
 ---
