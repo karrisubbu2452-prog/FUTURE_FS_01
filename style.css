@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #0f172a;
     color: white;
@@ -26,21 +27,34 @@ body {
 
 /* Hero */
 .hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
 
-    padding-top: 80px;
-    padding-left:40px;
+.hero-content {
+  max-width: 600px;
+}
 
-    gap: 10px;
-    background: #020617;
-    color: white;
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+}
 
-    max-width: 900px;
-    margin: 0 auto;
+.hero-buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #00ffcc;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .hero h1 {
@@ -61,18 +75,17 @@ body {
 }
 
 .hero p {
-    max-width: 500px;
-    color: #e2e8f0;
-    margin-top: 10px;
+  max-width: 500px;
+  margin: 10px auto;   /* ✅ center text block */
 }
 
-/* Sections */
 .section {
-  margin: 40px 0;          /* top-bottom only */
-  padding: 20px 40px;      /* left spacing */
-  background: #020617;       /* remove box look */
-  border-radius: 0;        /* remove rounded */
+  max-width: 900px;
+  margin: 50px auto;   /* ✅ THIS IS IMPORTANT */
+  padding: 50px 20px;
+  background: #020617;
 }
+
 #skills ul {
   padding-left: 20px;
 }
@@ -93,13 +106,20 @@ a {
   justify-content: flex-start; /* CHANGE THIS */
 }
 
-.project-card {
-    background-color: #111827;
-    border: 1px solid #1f2937;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-    transition: 0.3s;
+.project-card 
+    .btn {
+  background-color: #00ff88;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #00cc6a;
 }
 
 .project-card:hover {
