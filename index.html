@@ -18,7 +18,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="SubbaLakshmi_Karri_Resume.pdf" target="_blank">Resume</a></li>
+            <li><a href="resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </div>
 
@@ -41,6 +41,18 @@
     </div>
       </div>
     </div>
+
+    <section class="skills">
+  <h2>My Skills</h2>
+  <div class="skills-box">
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Linux</span>
+    <span>Git</span>
+  </div>
+</section>
 
     <!-- About -->
     <div class="section" id="about">
@@ -137,34 +149,36 @@
     View All Projects
   </a>
 
-</div>
+<div class="section" id="contact">
 
-    <!-- Contact -->
-    <div class="section" id="contact">
   <h2>Contact</h2>
-
-  <!-- Contact Form -->
-  <form>
-    <input type="text" placeholder="Your Name" required><br><br>
-    <input type="email" placeholder="Your Email" required><br><br>
-    <textarea placeholder="Your Message" required></textarea><br><br>
-    <button type="submit">Send Message</button>
-  </form>
-
-  <br>
 
   <!-- Email -->
   <p>
     <a href="mailto:karrisubbu2452@gmail.com">
-      karrisubbu2452@gmail.com
+      Email Me
+    </a>
+  </p>
+
+  <!-- Phone -->
+  <p>
+    <a href="tel:+918688866910">
+      Call Me
+    </a>
+  </p>
+
+  <!-- WhatsApp -->
+  <p>
+    <a href="https://wa.me/918688866910" target="_blank">
+      WhatsApp Chat
     </a>
   </p>
 
   <!-- LinkedIn -->
   <p>
     <a href="https://www.linkedin.com/in/subbalakshmi-satti-82876435b" target="_blank">
-      LinkedIn Profile
-    </a>
+  LinkedIn Profile
+</a>
   </p>
 
   <!-- GitHub -->
@@ -174,10 +188,24 @@
     </a>
   </p>
 
+  <form id="contact-form">
+  <input type="text" name="name" placeholder="Your Name" required><br><br>
+  
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
+  
+  <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+  
+  <button type="submit" id="send-btn">Send Message</button>
+</form>
+
 </div>
+
     <footer class="footer">
-    <p>© 2024 Subba Lakshmi Satti | Portfolio</p>
+    <p>© 2026 Subba Lakshmi Satti | Portfolio</p>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

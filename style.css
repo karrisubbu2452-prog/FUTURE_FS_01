@@ -179,3 +179,34 @@ form button:hover {
   align-items: center;
   gap: 10px
 }
+.skills {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.skills h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills-box span {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.skills-box span:hover {
+  background: #00adb5;
+  transform: scale(1.05);
+}
