@@ -13,6 +13,7 @@ It showcases my skills, projects, and contact details.
 ## 🛠️ Technologies Used
 - HTML
 - CSS
+- javascript
 
 ## 📂 Projects Included
 - Car Price Prediction (Machine Learning)
